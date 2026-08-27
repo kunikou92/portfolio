@@ -1,3 +1,5 @@
+import PageHeading from '../components/PageHeading';
+
 const history = [
   {
     date: '2026.04',
@@ -11,15 +13,11 @@ const skills = ['Processing', 'HTML', 'CSS', 'JavaScript', 'Python'];
 export default function AboutPage() {
   return (
     <div className="page-shell">
-      <section className="page-heading">
-        <p className="eyebrow">About me</p>
-        <h1>つくりながら、学ぶ。</h1>
-        <p className="page-lead">
+      <PageHeading eyebrow="About me" title="つくりながら、学ぶ。">
           國田航聖です。明治大学でメディアとテクノロジーを学びながら、
           Web制作やプログラミングに取り組んでいます。興味を持ったことを実際に形にし、
           試行錯誤の中でできることを増やしています。
-        </p>
-      </section>
+      </PageHeading>
 
       <div className="about-grid">
         <section className="content-panel profile-panel">

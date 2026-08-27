@@ -1,3 +1,5 @@
+import PageHeading from '../components/PageHeading';
+
 const works = [
   {
     title: '電卓アプリ',
@@ -12,14 +14,14 @@ const works = [
 export default function WorksPage() {
   return (
     <div className="page-shell">
-      <section className="page-heading works-heading">
-        <p className="eyebrow">Selected works</p>
-        <h1>制作実績。</h1>
-        <p className="page-lead">
+      <PageHeading
+        className="page-heading works-heading"
+        eyebrow="Selected works"
+        title="制作実績。"
+      >
           学びの中で制作した作品を紹介します。考え、手を動かし、完成させるまでの
           一つひとつが、次の制作につながっています。
-        </p>
-      </section>
+      </PageHeading>
 
       <section className="works-grid" aria-label="制作実績">
         {works.map((work, index) => (
