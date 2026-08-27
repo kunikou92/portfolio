@@ -2,8 +2,8 @@ import './globals.css';
 import Header from './components/Header';
 
 export const metadata = {
-  title: 'Portfolio',
-  description: 'Simple Next.js site',
+  title: 'Kunita Kousei | Portfolio',
+  description: 'Kunita Kouseiのポートフォリオサイト',
 };
 
 export default function RootLayout({ children }) {
