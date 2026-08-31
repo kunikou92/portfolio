@@ -12,9 +12,9 @@ export default function HomePage() {
           eyebrow="Kunita Kousei / Portfolio"
           title={
             <>
-              つくることから、
+              <span className="home-title-line">つくることから、</span>
               <br />
-              新しいことを学ぶ。
+              <span className="home-title-line">新しいことを学ぶ。</span>
             </>
           }
           action={
